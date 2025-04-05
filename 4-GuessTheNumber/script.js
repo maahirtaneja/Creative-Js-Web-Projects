@@ -39,7 +39,7 @@ function checkGuess(guess) {
   if (guess === randomNumber) {
     displayMessage("🎉 You guessed it right!");
     endGame();
-  } else if (numGuess === 10) {
+  } else if (numGuess > 10) {
     displayMessage(`❌ Game Over! The number was ${randomNumber}.`);
     endGame();
   } else if (guess < randomNumber) {
