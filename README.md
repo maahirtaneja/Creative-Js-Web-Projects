@@ -5,7 +5,7 @@ A collection of **creative web mini-projects** built using **HTML, CSS, and Java
 ---
 
 ## 🚀 Live Demo  
-Check out the live version of this project: [Creative JS Web Projects](https://maahirtaneja.github.io/Creative-JS-Web-Projects/)
+Check out the live version of this project: [Creative JS Web Projects](https://maahirtaneja.github.io/Creative-Js-Web-Projects/)
 
 ---
 
