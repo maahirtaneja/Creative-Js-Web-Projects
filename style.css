@@ -1,0 +1,98 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #212121;
+  color: #eeeeee;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+nav {
+  background-color: #2c2c2c;
+  padding: 14px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-bottom: 1px solid #ffa72655;
+}
+
+nav a {
+  color: #ffa726;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ffa72633;
+  color: white;
+}
+
+/* Main */
+main {
+  flex-grow: 1;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #ffa726;
+}
+
+.highlight {
+  color: white;
+}
+
+/* Project links */
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.project-link {
+  background-color: #2a2a2a;
+  color: #ffa726;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  width: 85%;
+  max-width: 400px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid #ffa72688;
+  transition: all 0.25s ease-in-out;
+}
+
+.project-link:hover {
+  background-color: #ffa726;
+  color: #212121;
+  transform: scale(1.02);
+}
+
+/* Footer */
+footer {
+  padding: 16px;
+  text-align: center;
+  background-color: #2c2c2c;
+  color: #ccc;
+  border-top: 1px solid #ffa72655;
+  font-size: 14px;
+}

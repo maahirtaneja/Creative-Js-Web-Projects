@@ -1,0 +1,41 @@
+/* Basic Reset */
+body {
+  background-color: #212121;
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a:hover {
+  color: #ffa726;
+}
+
+/* Center the Content */
+.center {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 60px);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Banner */
+#banner span {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  background-color: #333;
+  border-radius: 8px;
+}
+
+/* Clock */
+#clock {
+  font-size: 32px;
+  background-color: #ffa726;
+  color: #212121;
+  padding: 12px 30px;
+  margin-top: 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}

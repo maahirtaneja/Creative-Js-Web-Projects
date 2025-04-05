@@ -1,0 +1,110 @@
+/* Base styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+nav {
+  background-color: #212121;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffa726;
+}
+
+/* Container styling */
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* Form styling */
+form p {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+label {
+  font-size: 18px;
+}
+
+input[type="text"] {
+  width: 60%;
+  height: 35px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Button */
+button {
+  display: block;
+  width: 100%;
+  height: 45px;
+  background-color: #ffa726;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #fb8c00;
+}
+
+/* Results */
+#results {
+  font-size: 24px;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Weight guide */
+#weight-guide {
+  text-align: center;
+  margin-top: 30px;
+  color: black;
+}
+
+#weight-guide h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#weight-guide p {
+  margin: 5px 0;
+  font-size: 16px;
+}

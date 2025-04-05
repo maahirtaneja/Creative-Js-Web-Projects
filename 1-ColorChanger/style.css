@@ -1,0 +1,97 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #212121;
+}
+
+/* Nav */
+nav {
+  background-color: #212121;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffa726;
+}
+
+/* Canvas */
+.canvas {
+  margin: 80px auto;
+  width: 80%;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* Heading */
+.canvas h1 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+/* Color buttons */
+.button-container {
+  margin-bottom: 30px;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #333;
+  display: inline-block;
+  margin: 0 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+#grey {
+  background: grey;
+}
+
+#orange {
+  background: orange;
+}
+
+#aqua {
+  background: aqua;
+}
+
+#gold {
+  background: gold;
+}
+
+/* Bottom text */
+.canvas h2 {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.canvas h2 span {
+  display: block;
+  font-size: 1rem;
+  margin-top: 5px;
+  color: #555;
+}
