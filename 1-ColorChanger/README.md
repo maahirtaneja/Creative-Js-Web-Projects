@@ -24,13 +24,14 @@ Check it out live: [Color Changer](https://maahirtaneja.github.io/Creative-Js-We
 
 ---
 
-## 📂 Folder Structure  
+## 📂 Folder Structure 
+```
 1-ColorChanger/
 ├── index.html     ← 🌐 Basic structure
 ├── style.css      ← 🎨 Button styling & layout
 ├── script.js      ← ⚙️ Random color logic
 └── README.md      ← 📘 Project description
-
+```
 ---
 
 ## 🧠 Concepts Practiced  
