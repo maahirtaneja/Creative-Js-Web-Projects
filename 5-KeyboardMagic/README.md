@@ -27,7 +27,7 @@ Try it live: [Keyboard Magic](https://maahirtaneja.github.io/Creative-Js-Web-Pro
 ## 📂 Folder Structure  
 
 ```
-4-KeyboardMagic/
+5-KeyboardMagic/
 ├── index.html     ← 📄 HTML with layout and structure
 ├── style.css      ← 🎨 Dark-themed styles and table aesthetics
 ├── script.js      ← ⚙️ Key event logic
