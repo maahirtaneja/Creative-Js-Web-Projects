@@ -5,41 +5,47 @@ A collection of **creative web mini-projects** built using **HTML, CSS, and Java
 ---
 
 ## 🚀 Live Demo  
-Check out the live version of this project: [Creative JS Web Projects](https://maahirtaneja.github.io/Creative-Js-Web-Projects/)
+Explore all projects here: [Creative JS Web Projects](https://maahirtaneja.github.io/Creative-Js-Web-Projects/)
 
 ---
 
 ## 📌 Features  
-- ⚡ **4 Interactive Projects** – Each project demonstrates a different concept in JavaScript.  
-- 💻 **Single Page Navigation** – Main homepage to explore all projects easily.  
-- 🎯 **Beginner-Friendly** – Great for anyone getting started with JavaScript.  
-- 🧑‍🎨 **Custom UI Design** – Clean and modern theme with an orange-grey aesthetic.  
-- 📱 **Responsive Design** – Fully adaptable across devices.
+- ⚡ **6 Interactive Projects** – Each project demonstrates a unique concept in JavaScript  
+- 💻 **Modern Single Page Navigation** – A clean and responsive homepage to browse projects  
+- 🎯 **Beginner-Friendly** – Designed for those starting with JS  
+- 🧑‍🎨 **Custom UI Design** – Orange-grey dark theme aesthetic  
+- 📱 **Responsive Design** – Optimized for mobile, tablet, and desktop
 
 ---
 
-## 📂 Projects Included  
+## 🧪 Projects Included  
 
 ### 🎨 Color Changer  
-Click to randomly change the background color. A quick intro to DOM and event handling.
+Click to randomly change the background color. Intro to event handling and DOM manipulation.
 
-### 🧮 BMI Calculator  
-Enter your height and weight to compute your Body Mass Index.
+### 🧮 BMI Generator  
+Calculate your Body Mass Index using height and weight. Basic arithmetic logic with input fields.
 
 ### ⏰ Digital Clock  
-Live digital clock with real-time updates and AM/PM format.
+Live clock showing current time with AM/PM format. Uses `setInterval` and date-time functions.
 
 ### 🤔 Guess The Number  
-Guess a random number between 1 and 100 in 10 tries – with game reset option.
+Guess a number between 1–100 in 10 tries. Feedback provided after every guess.
+
+### ⌨️ Keyboard Magic  
+Displays the key you press along with keycode and other info. Great for understanding keyboard events.
+
+### 🌈 Unlimited Colors  
+Starts a loop to change background color every second. Uses `setInterval`, random color generation, and DOM interaction.
 
 ---
 
 ## 🛠️ Technologies Used  
-- **HTML** – Markup and structure  
-- **CSS** – Styling and layout  
-- **JavaScript** – Logic and interactivity  
-- **Google Fonts** – Custom typography  
-- **Responsive Layouts** – Built with Flexbox
+- **HTML** – Page structure  
+- **CSS** – Styling and responsiveness  
+- **JavaScript** – Dynamic functionality  
+- **Google Fonts** – Clean typography  
+- **Flexbox** – Responsive layouts
 
 ---
 
@@ -71,6 +77,16 @@ Creative-JS-Web-Projects/
 │   └── README.md          ← 📘 Project-specific details
 │
 ├── 4-GuessTheNumber/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── README.md          ← 📘 Project-specific details
+├── 5-KeyboardMagic/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── README.md          ← 📘 Project-specific details
+├── 6-UnlimitedColors/
 │   ├── index.html
 │   ├── style.css
 │   ├── script.js
