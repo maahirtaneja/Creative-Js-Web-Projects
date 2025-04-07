@@ -81,11 +81,13 @@ Creative-JS-Web-Projects/
 │   ├── style.css
 │   ├── script.js
 │   └── README.md          ← 📘 Project-specific details
+│
 ├── 5-KeyboardMagic/
 │   ├── index.html
 │   ├── style.css
 │   ├── script.js
 │   └── README.md          ← 📘 Project-specific details
+│
 ├── 6-UnlimitedColors/
 │   ├── index.html
 │   ├── style.css
